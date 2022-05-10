@@ -17,8 +17,8 @@ h1 {
 body {
   background: linear-gradient(
     to left,
-    rgb(11, 56, 80) 0%,
-    rgb(149, 218, 218) 100%
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
   );
 }
 
