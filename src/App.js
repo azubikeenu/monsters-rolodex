@@ -23,12 +23,15 @@ const App = () => {
     setFilteredMonsters(newFilteredMonsters);
   }, [searchField, monsters]);
 
+
   const onSearchChange = (e) => {
     setSearchField(e.target.value);
   };
+
   const onTitleChange = (e) => {
     setTitle(e.target.value);
   };
+
 
   return (
     <div className="App">
